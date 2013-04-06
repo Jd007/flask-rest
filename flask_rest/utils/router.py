@@ -15,8 +15,8 @@ def register_handlers(api_ver):
 		# Example handler v1
 		ExampleHandler.register_handler('rest_example', '/%s/rest_example/' % (api_ver), None, None)
 
-	elif api_ver == 'v1':
-		# Register REST handlers for API version 1
+	elif api_ver == 'v2':
+		# Register REST handlers for API version 2
 		from flask_rest.example_api_v2.example_handler import *
 
 		# Example handler v2
