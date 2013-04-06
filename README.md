@@ -5,7 +5,7 @@ A class-based template for building RESTful APIs in Flask. Provided here more as
 ##### Why:
 
 * Many existing RESTful APIs did not offer the level of flexibility I wanted (e.g. request authentication are resource-wide and cannot be customized based on request method)
-* Keep the overhead as little as possible (no useless serializers)
+* Keep the overhead as little as possible (e.g. no useless serializers)
 
 ##### Requirements:
 
